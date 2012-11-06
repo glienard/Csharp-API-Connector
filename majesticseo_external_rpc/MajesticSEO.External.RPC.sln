@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajesticSEO.External.RPC", "MajesticSEO.External.RPC\MajesticSEO.External.RPC.csproj", "{6ED18656-9475-4398-B6B7-929C81B9EFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.MajesticSEO.External.RPC", "Test.MajesticSEO.External.RPC\Test.MajesticSEO.External.RPC.csproj", "{07E063B2-9F95-4B8A-B067-C2BBB66D2AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajesticSEO.External.RPC.Sample1", "MajesticSEO.External.RPC.Sample1\MajesticSEO.External.RPC.Sample1.csproj", "{DBA1A8EA-8B85-4F92-9ABB-0093DC513901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajesticSEO.External.RPC.Sample2", "MajesticSEO.External.RPC.Sample2\MajesticSEO.External.RPC.Sample2.csproj", "{6A90C25E-6C43-46A8-A633-EA010D4BCE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajesticSEO.External.RPC.OpenAppSample", "MajesticSEO.External.RPC.OpenAppSample\MajesticSEO.External.RPC.OpenAppSample.csproj", "{9F9144BF-FAFC-481B-8D6C-0AA9030E49DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6ED18656-9475-4398-B6B7-929C81B9EFAE} = {6ED18656-9475-4398-B6B7-929C81B9EFAE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ED18656-9475-4398-B6B7-929C81B9EFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED18656-9475-4398-B6B7-929C81B9EFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED18656-9475-4398-B6B7-929C81B9EFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED18656-9475-4398-B6B7-929C81B9EFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E063B2-9F95-4B8A-B067-C2BBB66D2AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E063B2-9F95-4B8A-B067-C2BBB66D2AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E063B2-9F95-4B8A-B067-C2BBB66D2AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E063B2-9F95-4B8A-B067-C2BBB66D2AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1A8EA-8B85-4F92-9ABB-0093DC513901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1A8EA-8B85-4F92-9ABB-0093DC513901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1A8EA-8B85-4F92-9ABB-0093DC513901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1A8EA-8B85-4F92-9ABB-0093DC513901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A90C25E-6C43-46A8-A633-EA010D4BCE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A90C25E-6C43-46A8-A633-EA010D4BCE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A90C25E-6C43-46A8-A633-EA010D4BCE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A90C25E-6C43-46A8-A633-EA010D4BCE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9144BF-FAFC-481B-8D6C-0AA9030E49DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9144BF-FAFC-481B-8D6C-0AA9030E49DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9144BF-FAFC-481B-8D6C-0AA9030E49DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9144BF-FAFC-481B-8D6C-0AA9030E49DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
