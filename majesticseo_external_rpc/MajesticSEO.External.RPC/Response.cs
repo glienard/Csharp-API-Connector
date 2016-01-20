@@ -71,7 +71,9 @@ namespace MajesticSEO.External.RPC
             DataTable dataTable = null;
 
             XmlReader reader = XmlReader.Create(xml_data);
-            while (reader.Read())
+            reader.Read();
+
+            while (!reader.EOF)
             {
                 if (reader.IsStartElement())
                 {
@@ -81,6 +83,7 @@ namespace MajesticSEO.External.RPC
                             responseAttributes.Add("Code", reader["Code"]);
                             responseAttributes.Add("ErrorMessage", reader["ErrorMessage"]);
                             responseAttributes.Add("FullError", reader["FullError"]);
+                            reader.Read();
                             break;
 
                         case "GlobalVars":
@@ -92,7 +95,7 @@ namespace MajesticSEO.External.RPC
                                 }
                             }
 
-                            reader.MoveToElement();
+                            reader.Read();
                             break;
 
                         case "DataTable":
@@ -109,14 +112,22 @@ namespace MajesticSEO.External.RPC
                             }
 
                             tables.Add(dataTable.GetTableName(), dataTable);
-                            reader.MoveToElement();
+                            reader.Read();
                             break;
 
                         case "Row":
                             string row = reader.ReadElementContentAsString();
                             dataTable.SetTableRow(row);
                             break;
+
+                        default:
+                            reader.Read();
+                            break;
                     }
+                }
+                else
+                {
+                    reader.Read();
                 }
             }
         }
