@@ -4,7 +4,7 @@ C# Majestic API Connector
 The C# connector is written using Visual Studio 2015 and targets .NET Framework 3.5.
 
 ```C#
-var api = new APIService("MY_API_KEY", "http://api.majestic.com/api_command");
+var api = new APIService("MY_API_KEY", "https://api.majestic.com/api_command");
 
 var parameters = new Dictionary<string, string>()
 {
@@ -28,4 +28,4 @@ else
 }
 ```
 
-A full list of available commands can be found within the [developer documentation](http://developer-support.majestic.com/api/commands/).
+A full list of available commands can be found within the [developer documentation](https://developer-support.majestic.com/api/commands/).
