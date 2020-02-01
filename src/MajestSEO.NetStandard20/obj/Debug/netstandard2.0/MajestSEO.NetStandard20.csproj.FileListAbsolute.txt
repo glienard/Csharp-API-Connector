@@ -1,0 +1,8 @@
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\obj\Debug\netstandard2.0\MajestSEO.NetStandard20.csprojAssemblyReference.cache
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\obj\Debug\netstandard2.0\MajestSEO.NetStandard20.AssemblyInfoInputs.cache
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\obj\Debug\netstandard2.0\MajestSEO.NetStandard20.AssemblyInfo.cs
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\bin\Debug\netstandard2.0\MajesticSEO.External.RPC.deps.json
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\bin\Debug\netstandard2.0\MajesticSEO.External.RPC.dll
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\bin\Debug\netstandard2.0\MajesticSEO.External.RPC.pdb
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\obj\Debug\netstandard2.0\MajesticSEO.External.RPC.dll
+C:\GitHub\MajesticSEO_netstandard\src\MajestSEO.NetStandard20\obj\Debug\netstandard2.0\MajesticSEO.External.RPC.pdb
