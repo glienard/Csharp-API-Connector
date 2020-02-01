@@ -1,7 +1,7 @@
 C# Majestic API Connector
 =========================
 
-1 Feb 2020: Gregory Liénard added version in .NET Standard 2.0
+*1 Feb 2020: Gregory Liénard added version in .NET Standard 2.0*
 
 The C# connector is written using Visual Studio 2015 and targets .NET Framework 3.5.
 
